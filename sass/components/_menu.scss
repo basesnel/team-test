@@ -1,0 +1,11 @@
+.menu {
+  @extend %list;
+
+  &__link {
+    @extend %link;
+  }
+
+  .header & {
+    display: none;
+  }
+}

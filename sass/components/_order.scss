@@ -1,0 +1,8 @@
+.order {
+  @extend %btn;
+  // @include border-radius(30px);
+
+  .header & {
+    display: none;
+  }
+}

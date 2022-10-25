@@ -1,0 +1,12 @@
+.menu-open {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  &__icon {
+    @extend %no-gap;
+    width: 28px;
+    height: 28px;
+  }
+}
