@@ -1,6 +1,14 @@
 %container {
   margin: 0 auto;
   padding: 0 20px;
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+    padding: 0 32px;
+  }
 }
 
 %title {
@@ -44,8 +52,8 @@
   line-height: 1.5em;
   text-transform: capitalize;
 
-  background-color: $btn-green;
   color: $prim-txt-color;
+  border-radius: 30px;
 
   cursor: pointer;
 }
